@@ -5,13 +5,13 @@ const caseStudies = [
   {
     id: 1,
     subtitle: 'Food',
-    title: 'For the perfect shot that makes your mouth water',
+    title: 'For the perfect shot that fits your style',
     img: 'case1',
   },
   {
     id: 2,
     subtitle: 'Space',
-    title: 'Show off your space with all of its features',
+    title: 'Show off your beautiful space',
     img: 'case2',
   },
   {

@@ -7,10 +7,10 @@ const Banner = () => {
         <div className='banner-row row'>
           <h2 className='banner-heading'>
             <div className='banner-line'>
-              <span className='banner-span'>User generated content</span>
+              <span className='banner-text'>User content</span>
             </div>
             <div className='banner-line'>
-              <span className='banner-span'>that performs.</span>
+              <span className='banner-text'>that performs.</span>
             </div>
           </h2>
           <div className='banner-btn-row'>

@@ -11,7 +11,7 @@ const Header = () => {
       <div className='container'>
         <div className='row v-center space-between'>
           <div className='logo'>
-            <Link href='/'>POLKA•</Link>
+            <Link href='/'>POLKA</Link>
             {/* <Link href='/'>
               <Image src={ImageLogo} alt='Logo' width={192} height={40} />
             </Link> */}
