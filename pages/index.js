@@ -28,27 +28,27 @@ export default function Home() {
       }
     )
       .to('.overlay-top', {
-        duration: 1.6,
+        duration: 2,
         height: 0,
-        ease: 'expo.inOut',
+        ease: 'circ.inOut',
         stagger: 0.4,
       })
-      .to('.overlay-bottom', {
-        duration: 1.6,
-        width: 0,
-        ease: 'expo.inOut',
-        delay: -0.8,
-        stagger: {
-          amount: 0.4,
-        },
-      })
+      // .to('.overlay-bottom', {
+      //   duration: 1.6,
+      //   scale: 0,
+      //   ease: 'expo.inOut',
+      //   delay: -1,
+      //   stagger: {
+      //     amount: 0.4,
+      //   },
+      // })
       .to('.intro-overlay', {
         duration: 0,
         css: { display: 'none' },
       })
-      .from('.case-image img', {
+      .to('.case-image-wrapper .case-image', {
         duration: 1.6,
-        scale: 1.4,
+        scale: 1.1,
         ease: 'expo.inOut',
         delay: -2,
         stagger: {

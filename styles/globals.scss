@@ -1,3 +1,65 @@
+// Moniqa
+@font-face {
+  font-family: 'Moniqa';
+  src: local('Moniqa'),
+    url(../assets/fonts/Moniqa-MediumHeading.woff2) format('truetype');
+}
+@font-face {
+  font-family: 'Moniqa';
+  font-weight: 600;
+  src: local('Moniqa'),
+    url(../assets/fonts/Moniqa-MediumParagraph.woff2) format('truetype');
+}
+// Morganite
+@font-face {
+  font-family: 'Morganite';
+  font-weight: 100;
+  src: local('Morganite'),
+    url(../assets/fonts/Morganite-Thin.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Morganite';
+  font-weight: 200;
+  src: local('Morganite'),
+    url(../assets/fonts/Morganite-ExtraLight.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Morganite';
+  font-weight: 300;
+  src: local('Morganite'),
+    url(../assets/fonts/Morganite-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Morganite';
+  font-weight: 500;
+  src: local('Morganite'),
+    url(../assets/fonts/Morganite-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Morganite';
+  font-weight: 600;
+  src: local('Morganite'),
+    url(../assets/fonts/Morganite-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Morganite';
+  font-weight: 700;
+  src: local('MeshedDisplay'),
+    url(../assets/fonts/Morganite-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Morganite';
+  font-weight: 800;
+  src: local('Morganite'),
+    url(../assets/fonts/Morganite-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Morganite';
+  font-weight: 900;
+  src: local('Morganite'),
+    url(../assets/fonts/Morganite-Black.ttf) format('truetype');
+}
+
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
 @import './variables.scss';
 @import './breakpoints.scss';
@@ -58,9 +120,12 @@ html {
   overscroll-behavior: none;
   overflow-x: hidden;
   margin: 0;
-  font-family: 'Josefin Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-    'Helvetica Neue', sans-serif;
+  // font-family: 'Josefin Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  //   'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+  //   'Helvetica Neue', sans-serif;
+  font-family: 'Moniqa', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-variant-ligatures: common-ligatures;

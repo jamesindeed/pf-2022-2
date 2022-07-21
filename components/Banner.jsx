@@ -15,7 +15,7 @@ const Banner = () => {
           </h2>
           <div className='banner-btn-row'>
             <a className='banner-btn-link' href='/'>
-              Find out more
+              Contact Me
               <span className='banner-btn'>
                 <span className='banner-btn-inner'></span>
               </span>

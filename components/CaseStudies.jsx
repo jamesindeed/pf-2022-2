@@ -5,7 +5,7 @@ const caseStudies = [
   {
     id: 1,
     subtitle: 'Food',
-    title: 'For the perfect shot that fits your style',
+    title: 'For the perfect food shot',
     img: 'case1',
   },
   {
@@ -17,7 +17,7 @@ const caseStudies = [
   {
     id: 3,
     subtitle: 'People',
-    title: 'For your best look yet',
+    title: 'For your best look ever',
     img: 'case3',
   },
 ]
@@ -58,7 +58,7 @@ const CaseStudies = () => {
             </svg>
           </div>
         </div> */}
-        <div className='cases-row row'>
+        <div className='cases-row'>
           {caseStudies.map((caseItem) => (
             <div className='case' key={caseItem.id}>
               <div className='case-details'>
@@ -70,6 +70,8 @@ const CaseStudies = () => {
                   className='case-image'
                   src={require(`../assets/CaseStudies/${caseItem.img}.jpg`)}
                   alt={caseItem.title}
+                  layout='fill'
+                  objectFit='cover'
                 />
               </div>
             </div>

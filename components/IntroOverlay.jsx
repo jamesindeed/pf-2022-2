@@ -8,12 +8,13 @@ const IntroOverlay = () => {
           <div className='overlay-top'></div>
           {/* <div className='overlay-top'></div>
           <div className='overlay-top'></div> */}
-        </div>
-        <div className='bottom'>
+        </div>{' '}
+        {/* <div className='bottom'>
           <div className='overlay-bottom'></div>
           <div className='overlay-bottom'></div>
           <div className='overlay-bottom'></div>
         </div>
+        */}
       </div>
     </>
   )
