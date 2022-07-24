@@ -29,19 +29,17 @@ export default function Home() {
     )
       .to('.overlay-top', {
         duration: 2,
-        height: 0,
-        ease: 'circ.inOut',
+        width: 0,
+        ease: 'power3.inOut',
         stagger: 0.4,
       })
-      // .to('.overlay-bottom', {
-      //   duration: 1.6,
-      //   scale: 0,
-      //   ease: 'expo.inOut',
-      //   delay: -1,
-      //   stagger: {
-      //     amount: 0.4,
-      //   },
-      // })
+      .to('.overlay-top-second', {
+        duration: 2,
+        width: 0,
+        ease: 'power3.inOut',
+        delay: -2.5,
+        stagger: 0.4,
+      })
       .to('.intro-overlay', {
         duration: 0,
         css: { display: 'none' },
