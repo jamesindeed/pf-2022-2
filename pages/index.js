@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Header, Banner, CaseStudies, IntroOverlay } from '../components'
+import { Header, Banner, CaseStudies, IntroOverlay, Nav } from '../components'
 import gsap from 'gsap'
 
 export default function Home() {
@@ -56,11 +56,14 @@ export default function Home() {
   }, [])
 
   return (
-    <div className='app'>
-      <IntroOverlay />
+    <>
+      <Nav />
       <Header />
-      <Banner />
-      <CaseStudies />
-    </div>
+      <div className='app'>
+        <IntroOverlay />
+        <Banner />
+        <CaseStudies />
+      </div>
+    </>
   )
 }

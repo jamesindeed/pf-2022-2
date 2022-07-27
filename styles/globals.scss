@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
+@import './variables.scss';
+@import './breakpoints.scss';
+@import './header.scss';
+@import './banner.scss';
+@import './caseStudies.scss';
+@import './introOverlay.scss';
+@import './nav.scss';
+
 // Moniqa
 @font-face {
   font-family: 'Moniqa';
@@ -60,13 +69,12 @@
     url(../assets/fonts/Morganite-Black.ttf) format('truetype');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
-@import './variables.scss';
-@import './breakpoints.scss';
-@import './header.scss';
-@import './banner.scss';
-@import './caseStudies.scss';
-@import './introOverlay.scss';
+.app {
+  z-index: 2;
+  transform: translateY(0);
+  position: relative;
+  background-color: $white;
+}
 
 // RESUABLE CLASSES
 .container {
