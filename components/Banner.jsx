@@ -13,14 +13,14 @@ const Banner = () => {
               <span className='banner-text'>that performs.</span>
             </div>
           </h2>
-          <div className='banner-btn-row'>
+          {/* <div className='banner-btn-row'>
             <a className='banner-btn-link' href='/'>
               Contact Me
               <span className='banner-btn'>
                 <span className='banner-btn-inner'></span>
               </span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

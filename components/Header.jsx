@@ -1,16 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-// import Image from 'next/image'
-// import ImageLogo from '../assets/pp-logo.png'
+import Image from 'next/image'
+import ImageLogo from '../assets/pp-logo.png'
 import { openMenu, closeMenu } from '../animations/navAnim.jsx'
 
 const Header = () => {
   const [menuState, setMenuState] = useState({ menuOpened: false })
   useEffect(() => {
-    //Listening for page changes.
-    // history.listen(() => {
-    //   setMenuState({ menuOpened: false })
-    // })
     if (menuState.menuOpened === true) {
       openMenu(window.innerWidth)
     } else if (menuState.menuOpened === false) {

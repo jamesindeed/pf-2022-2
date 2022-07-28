@@ -1,6 +1,6 @@
 .cases {
-  height: calc(var(--vh, 1vh) * 50);
-  height: 50vh;
+  height: calc(var(--vh, 1vh) * 60);
+  height: 60vh;
   @include media('<=tablet') {
     height: auto;
   }
@@ -50,8 +50,8 @@
       background: $black;
       cursor: pointer;
       width: 33.3333vw;
-      height: calc(var(--vh, 1vh) * 50 - 30px);
-      height: calc(50vh - 30px);
+      height: calc(var(--vh, 1vh) * 60 - 30px);
+      height: calc(60vh - 30px);
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
